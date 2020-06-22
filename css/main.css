@@ -1,0 +1,80 @@
+body {
+    height: 2000px;
+    padding: 0.1px;
+    background-color: #F7D4CC
+}
+
+
+
+body div.active {
+    border: 10px dashed black;
+    background: red;
+}
+
+.over {
+    background-color: red;
+}
+
+.collum {
+    margin-left: 250px;
+    height: 1px;
+    width: 20px;
+    background: red;
+}
+.dad{
+    display: flex;
+    flex-direction: column-reverse;
+position: absolute;
+width: 20px;
+height: 100px;
+overflow: hidden;
+border: solid 1px black;
+
+}
+
+#test {
+position: relative;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: green;
+}
+#test2 {
+position: relative;
+width: 20px;
+height: 10px;
+background:red;
+}
+
+
+
+.block {
+margin-top: 20px;
+text-align: center;
+font-size: 36px;
+color: #BE3FF9;
+}
+.block-1 {
+margin-top: 20px;
+text-align: center;
+font-size: 18px;
+color: #BE3FF9;
+}
+.elem {
+background-color: yellow;
+}
+#area{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top:20px;
+}
+.inputs{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+margin-top: 30px;
+}
